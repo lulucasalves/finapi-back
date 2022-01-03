@@ -1,5 +1,5 @@
 <h1>Finapi</h1>
-<img src="" />
+<img src="https://github.com/lulucasalves/finapi-api-back/blob/main/.github/img-1.png" />
 <br />
 <h2>Tecnologias útlizadas</h2>
 <ul>
