@@ -1,6 +1,7 @@
 const connection = require('../database')
 const passwordhash = require('password-hash')
 const jwt = require('jsonwebtoken')
+const { get } = require('express/lib/response')
 
 exports.signup = async (req, res) => {
   const { name, password, cpf } = req.body
