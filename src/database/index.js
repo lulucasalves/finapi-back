@@ -1,4 +1,4 @@
-const mysql = require('mysql')
+const mysql = require('mysql2')
 require('dotenv/config')
 
 const connection = mysql.createConnection({
@@ -6,15 +6,6 @@ const connection = mysql.createConnection({
   user: 'root',
   password: process.env.SECRET,
   database: 'finapi'
-})
-
-connection.query('SELECT * from SCHEMA', (err, rows) => {
-  if (err) {
-    console.log('Query Error: ', rows)
-    throw err
-  }
-
-  console.log('Banco de dados conectado!')
 })
 
 module.exports = connection
