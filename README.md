@@ -1,7 +1,7 @@
 <h1>Finapi</h1>
 <p>Esta é uma api feita em node com as regras de padrões do ignite da RocketSeat, dentre suas funcionalidades, estão: fazer saques e depósitos, fazer login, cadastrar, visualizar informações do usuário e deletar a conta.
 
-Obs: A api não tem a mesma estrutura de segurando que de uma plataforma de finanças.
+Obs: A api não tem a mesma estrutura de segurança que de uma plataforma de finanças.
 </p>
 <img src="https://github.com/lulucasalves/finapi-api-back/blob/main/.github/img-1.png" />
 <br />
